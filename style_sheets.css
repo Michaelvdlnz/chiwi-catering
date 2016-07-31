@@ -1,0 +1,265 @@
+/*tablet screen*/
+@media screen and (max-width: 747px) {
+    #nav01{
+    }
+}
+html{}
+body{background: rgba(0, 245, 255, 0) !important}
+/*word press config*/
+#wpadminbar{display: none}
+html{margin-top:0px ;}
+.navigation{display:none}
+#masthead{display:none}
+.entry-title{display:none}
+footer.entry-footer {display:none}
+footer #colophon .site-footer{display:none}
+.entry-content .content-area{width:100%}
+
+/*computer screen*/
+#headerId1{
+    z-index: 100;
+    position: fixed;
+    top:0px;
+    width:100%;
+    font-family: Gerogia;
+    text-align: center;
+    // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+    
+}
+header img:nth-child(1){
+    position: relative;
+    top:110px;
+    right:0%;
+    width:50%;
+    max-width:700px;
+    // Animation
+   -webkit-transition: all 0.8s ease;
+   transition: all 0.8s ease;
+} 
+
+/*when scroll down addClass in jquery*/
+.shrinkMenu img:nth-child(1){width:16%}
+
+
+.shrinkMenu nav .fa:hover{color:black;}
+
+.shrinkMenu ul#menu li a:hover{
+    text-decoration: none;
+   
+}
+.shrinkMenu .OrderNowButton a{
+    position: relative;
+    z-index: 101;
+    background-color: white;
+    border:3px solid lightgrey;
+}
+/*when scroll down to 200px the image move to the left in addClass jquery*/
+.imagePosition img{ 
+    position: relative;
+    right:0px;
+}
+.MoveToLeft{
+    height:120px;
+    background: rgba(0, 0, 0, 0.32);
+}
+.MoveToLeft img:nth-child(1){
+    position:relative;
+    top:0px;
+    right:40%;
+}
+
+.moveToTheBar #menu li img{
+    /*width:100px;
+    height:40px;*/
+}
+
+.moveToTheBar .fa{ 
+    color:#ffffff;
+}
+nav{
+    padding-top: 20px;
+    z-index:100;
+    position: absolute;
+    top:0px;
+    font-size:10px;
+    width: 100%;
+    text-align: center;
+    // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+.moveToTheBar {
+    background-color: rgba(0, 0, 0, 0);
+    position:absolute;
+    top: 30px;
+    padding-top: 0px;
+}
+nav .fa{ 
+    color:white;
+}
+nav .fa:hover{ 
+    color:black;
+}
+nav ul li {
+    margin-right:30px;
+    text-align: center;
+    display:inline-block;
+}
+.active .fa{
+    color: black;  
+}
+.active img{
+    border-bottom: 2px solid black;
+
+}
+.nav02{
+}
+#menu li img{
+    height:40px;
+}
+ul#menu li a:hover{
+    text-decoration: none;
+     color: rgb(0, 0, 0);
+}
+/*Backgound image */
+#slider-container img{
+    width:100%;
+    height:auto;
+    box-shadow: 1px 1px 10px grey;
+}
+.OrderNowButton {
+    z-index: 101;
+    position:relative;
+    top:140px;
+    transition: all 0.4s ease;
+}
+.ButtonMoveToLeft{
+    top:-70px;
+    right:-480px
+}
+
+.OrderNowButton a{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    padding:7px 30px 3px 30px;
+    border-radius: 7px;
+    border:3px solid lightgrey;
+    color: black;
+    background-color: white;
+}
+.OrderNowButton a:hover{
+    color:white;
+    background-color: rgba(0, 49, 0, 0);
+}
+
+main{
+    padding-bottom:30px;
+    border-bottom: 1px solid #2a2a2a;
+    margin-bottom: 1px;
+}
+section .header0ne{
+    color:#2a2a2a;
+    border-bottom: 2px solid #006000;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+section h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+footer {
+    background-color: #2a2a2a;
+    text-align: center;
+    margin:0px;
+    height:200px;
+    padding:30px;
+}
+footer p{
+    color:white;
+    display:inline;
+}
+footer a{
+    color: white;
+    display: inline;
+}
+#seal_3_certificate_image{
+    position: relative;
+    left:0px;
+    bottom: -30px;
+    display: block;
+}
+footer p, footer a{
+    position: relative;
+    bottom: 0px;
+}
+footer a img,footer a{
+    display:inline-block;
+    margin:5px;
+}
+footer a img:hover{border:1px solid rgba(96, 0, 0, 0)}
+/*Loading gif on about me page*/
+#overlay{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: 200;
+    background-color: rgba(240, 248, 255, 0.4);
+}
+#overlay img,#overlay p{
+    text-align: center;
+    width:150px;
+    position:absolute;
+    left:40%;
+    top:50%
+}
+/*Home Page*/
+#paragraphOneId{
+    text-align: center;
+    padding:30px
+}
+.colorFont img:hover{
+    border-bottom: 3px solid #23527c;
+}
+.firstBox {
+    margin-bottom: 10px;
+    border:2px solid #006000;
+    padding:15px;
+    text-align: center;
+}
+
+/*Menu*/
+.menu_12{
+    border:2px solid #006000;
+    margin-top:10px;
+    text-align: center;
+    padding:15px;
+}
+/*Gallery*/
+.gallery {
+    margin:20px;
+    text-align: center;
+    display: inline-block;   
+}
+.fotorama__img{
+    top: 0 !important;    
+}
+.entry-content {
+    width:300px
+}
+#g-header,#g-site-menu{visibility: hidden}
+/*contact*/
+#p_form_id {
+    display:inline-block;
+}
+
+.formContact {
+    width: 50%;
+    border:2px solid #006000;
+}
+.formContact li{
+    list-style-type: none;
+}

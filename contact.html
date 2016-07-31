@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contact</title>
+        <!--12 words max-->
+        <meta name="keywords" content="contact , wedding , birthday, catering , wellington">
+        <!--min 60 character-->
+        <meta name="description" content="find us and contact us">
+        <meta name="robots" content="index, follow">
+        <meta name="revisit-after" content="1 month">
+        <meta name="author" content="Ricardo">
+        <meta name="copyright" content="©">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <link rel="icon" href="Images/favicon.ico">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!--CSS file-->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        
+        <link rel="stylesheet" type="text/css" href="style_sheets.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        <!--javascript -->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        
+        <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script type="text/javascript" src="java_script.js"></script>
+        
+        <!--google analytics-->
+        <script async="" src="//www.google-analytics.com/analytics.js"></script>
+        <!--bootstapcdn js-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+        
+        
+        
+       
+        
+        
+    </head>
+    <body>
+        <?php include_once("analyticstracking.php") ?>
+        <div id="main-container">
+            <div class="page-wrapper">
+                <div class="header-wrapper">
+                    <header  id="headerId1">
+                        <div class="logo-container imagePosition LogoChiwi2" id="LogoChiwi"></div>
+                        <nav id="nav01" class="nav02"></nav>
+                        
+                    </header>
+                </div>
+                <div  id="slider-container" >
+                </div>
+            </div>
+        </div>
+        
+        <main>
+            <section class="container">
+                <h1 class="header0ne">Contact</h1>
+                <article>
+                    <div class="container formContact">
+                        <!--<form method="post" name="contactform" enctype="text/plain" action="send_form_email.php">
+                            <input for="first_name" type="text" name="name" placeholder="Name" required><br>
+                            <input for="contact number" type="text" name="contact" placeholder="Phone" required><br>
+                            <input for="email" type="text" name="mail" placeholder="Email" required><br>
+                            <div >
+                                <p >Events</p>
+                                <input for="event" type="radio" name="foo" value="Weddings" checked> Weddings<br>
+                                <input for="event" type="radio" name="foo" value="Birthday"> Birthday<br>
+                                <input for="event" type="radio" name="foo" value="Catering"> Catering<br>
+                            </div>
+                            <input for="date" type="text"  placeholder="Date" id="datepicker" required><br>
+                            <textarea for="message" name="message" placeholder="Any food recomandation or allergies." rows="7" cols="50" ></textarea><br>
+                            <input type="submit" value="Send">
+                        </form>-->
+                         <form  name="contactform" method="post" action="send_form_emailtry.php">
+                        <div >
+                            <p>Please fill up the form with your details. <br>When finished click on the submit button to send your request. <br>We will be in touch with you very shortly </p>
+                            <ul>
+                                <li>
+                                    <input for="first_name" type="text" name="first_name" placeholder="Name" size="30" required><br>
+                                    
+                                </li>
+                            </ul>
+                            <ul>
+                                <li >
+                                    <input for="last_name" type="text" name="last_name" placeholder="Last name" required maxlength="50" size="30">
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <input for="email" type="text" name="email" placeholder="Email" required maxlength="80" size="30">
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <input for="telephone" type="text" name="telephone" placeholder="Phone number" maxlength="30" size="30" required>
+                                </li>
+                            </ul>
+                            <p>What type of event would you like?</p>
+                             <ul>
+                                <li>
+                                    <input for="event" type="text" name="event" placeholder="Wedding, Birthday, Catering , Others..." maxlength="30" size="30" required>
+                                </li>
+                            </ul>
+                            
+                             <ul>
+                                <li>
+                                    <p id="p_form_id">Date :</p>
+                                    <input id="p_form_id" for="date" type="text" name="date"  maxlength="30" size="20" required>
+                                </li>
+                            </ul>
+                            
+                             <ul>
+                                <li>
+                                    <p id="p_form_id">Number of person :</p>
+                                    <input id="p_form_id" for="persons" type="text" name="persons" maxlength="30" size="3" required>
+                                </li>
+                            </ul>
+                            
+                             <ul>
+                                <li>
+                                    <p id="p_form_id">What is your budget:</p>
+                                    <input id="p_form_id" for="budget" type="text" name="budget"  placeholder="$" maxlength="30" size="10" required>
+                                </li>
+                            </ul>
+                            <p>Any food recomandation or allergy?</p>
+                            <ul>
+                                <li>
+                                    <textarea for="comments" name="comments"  maxlength="1000" cols="32" rows="6" ></textarea>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="formlibasicgrey" colspan="2" >
+                                    <input type="submit" value="Submit">
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer id="footer01">
+            
+        </footer>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57832e494026f887"></script>
+    </body>
+</html>
